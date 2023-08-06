@@ -23,6 +23,7 @@ def wolf_or_husky_classifier(image, model_weights_path):
 	]) # classifier model architecture
     model.build(input_shape = (None, 256, 256, 3)) # build model 
     model.set_weights(weights) # put weights to model
+    image_batch = np.expand_dims(image, axis = 0)
     
     pred = model.predict(image) # prediction happens here
     
