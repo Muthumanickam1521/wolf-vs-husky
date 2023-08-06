@@ -1,4 +1,4 @@
-# WOlf Vs. Husky Image Classifier
+# Wolf Vs. Husky Image Classifier
 
 An image classifier built using deep learning in Python that has potential to predict whether an image has wolf or husky.
 
