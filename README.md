@@ -24,5 +24,8 @@ A simple single layered Convolutional Neural Network (CNN) was called and used t
 ## Deployment
 The model is given a minial user interaface using Streamlit python library. I created a simple data app and deployed it in cloud space offered by streamlit. The app contains an image file uploader. 
 
+## Drawback
+Our model predicts brown wolfs as huskies as it was trained with less brown wolfs. In upcoming version, this will be rectified by adding enough samples for brown wolfs. 
+
 ## Future work
-Though the model identifies 98% accurate, it is not a robust model since it was built with a samll dataset and a single layer CNN. In future versions of this project, i will work on improving other benchmarks such as precision.
+Though the model identifies 98% accurate, it is not a robust model since it was built with a samll dataset and a single layer CNN. In future versions of this project, i will work on improving other benchmarks such as precision. The functionality of this project has room for improvement. 
