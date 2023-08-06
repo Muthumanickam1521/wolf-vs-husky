@@ -24,7 +24,4 @@ if image_path is not None:
         label = 'Given image is wolf!'
 
     st.write(label)
- 
-else:
-    st.write('Upload image again')
 
