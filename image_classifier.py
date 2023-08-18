@@ -19,7 +19,7 @@ def wolf_or_husky_classifier(image, model_weights_path):
 	  layers.Conv2D(16, 3, padding = 'same', activation = 'relu'),
 	  layers.MaxPooling2D(),
 	  layers.Flatten(),
-	  layers.Dense(2, activation = 'relu')
+	  layers.Dense(128, activation = 'relu')
 	]) # classifier model architecture
     model.build(input_shape = (None, 256, 256, 3)) # build model 
     model.set_weights(weights) # put weights to model
