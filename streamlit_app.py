@@ -17,11 +17,11 @@ if image_path is not None:
     image_array = np.expand_dims(image_array, axis = 0)
 
     pred = wolf_or_husky_classifier(image_array, 'model_weights.npy')
-    print(pred)
+    st.write(pred)
     if np.argmax(pred) == 0:
         label = 'Given image is husky!'
     else:
         label = 'Given image is wolf!'
-    print(label)
+    st.write(label)
     st.write(label)
 
