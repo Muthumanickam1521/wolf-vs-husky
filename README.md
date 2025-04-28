@@ -1,3 +1,5 @@
+**Update** (_dated on 28 April 2025_): This was my first image classification hobby project during my pg degree. This project is no longer updated. Results may not be accurate as it was intended developed for learning purposes.
+
 # Wolf Vs. Husky Image Classifier
 
 An image classifier built using deep learning in Python that has potential to predict whether an image has wolf or husky.
